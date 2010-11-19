@@ -1,0 +1,20 @@
+
+For all personal data:
+	Sync across systems.
+
+Intelligent syncing :=
+	Keep track over changes,
+	apply changes everywhere (sync),
+	every systems can have an own set of files, i.e. it must not have everything,
+	if we delete something, that can have different meanings:
+		1. delete globally, including history, (to save global space)
+		2. delete globally but keep in history, (cleanup)
+		3. delete locally and be sure that there exists backups at other places (to clean up the disk and save space on smaller systems)
+	know about (roughly) how much backups we have of one file/dir,
+	
+That intelligent syncing would just be the same for music, projects, videos, pictures and documents.
+
+Git would be a very nice system for keeping track over changes. Problems are though:
+	1. We always must have all files. (I.e. not possible to just keep some.)
+	2. We can either delete the whole history or not. (So not possible to delete the history of one single directory or so.)
+Possible work arounds: Sub modules. So just a separate Git repo for everything.
