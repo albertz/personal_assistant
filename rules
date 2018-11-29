@@ -18,3 +18,6 @@ Git would be a very nice system for keeping track over changes. Problems are tho
 	1. We always must have all files. (I.e. not possible to just keep some.)
 	2. We can either delete the whole history or not. (So not possible to delete the history of one single directory or so.)
 Possible work arounds: Sub modules. So just a separate Git repo for everything.
+
+So, let's each entity (e.g. a single project or a pictures directory or a single music album directory) be a separate Git (or whatever) repo.
+
